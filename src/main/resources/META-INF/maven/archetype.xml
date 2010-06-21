@@ -1,0 +1,17 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+	<id>maven-gwt-archetype</id>
+	<sources>
+		<source>src/main/java/Application.gwt.xml</source>
+		<source>src/main/java/client/Application.java</source>
+		<source>src/main/java/client/ApplicationService.java</source>
+		<source>src/main/java/client/ApplicationServiceAsync.java</source>
+		<source>src/main/java/server/ApplicationServiceServlet.java</source>
+	</sources>
+	<resources>
+		<resource>war/WEB-INF/appengine-web.xml</resource>
+		<resource>war/WEB-INF/logging.properties</resource>
+		<resource>war/WEB-INF/web.xml</resource>
+		<resource>war/index.html</resource>
+		<resource>war/style.css</resource>
+	</resources>
+</archetype>

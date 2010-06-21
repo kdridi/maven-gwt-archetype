@@ -1,0 +1,8 @@
+mvn archetype:generate \
+	-DarchetypeGroupId=com.arykow.archetypes \
+	-DarchetypeArtifactId=maven-gwt-archetype \
+	-DarchetypeVersion=0.0.1-SNAPSHOT \
+	-DgroupId=my.groupId \
+	-Dpackage=zezezeze \
+	-DartifactId=sample001 \
+	-Dversion=1.0.2
